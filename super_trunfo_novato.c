@@ -216,7 +216,7 @@ int main(){
         printf("Carta 1, Área - %s: %.2fkm²\nCarta 2, Área - %s: %.2fkm².\nCarta 1 GANHOU (%s). Parabéns!\n", cidade, area, cidade2, area2, cidade);
     } else {
         if (area < area2){
-            printf("Carta 1, Área - %s: %.fkm²\nCarta 2, Área - %s: %.2fkm².\nCarta 2 GANHOU (%s). ganhou! Parabéns!\n", cidade, area, cidade2, area2, cidade2);
+            printf("Carta 1, Área - %s: %.fkm²\nCarta 2, Área - %s: %.2fkm².\nCarta 2 GANHOU (%s). Parabéns!\n", cidade, area, cidade2, area2, cidade2);
         } else {
             printf("Carta 1, Área - %s: %.2fkm²\nCarta 2, Área - %s: %.2fkm².\nEmpataram.\n \n", cidade, area, cidade2, area2);
         }
@@ -227,7 +227,7 @@ int main(){
         printf("Carta 1, PIB - %s: %.2f\nCarta 2, PIB - %s: %.2f.\nCarta 1 GANHOU (%s). Parabéns!\n", cidade, pib, cidade2, pib2, cidade);
     } else {
         if (pib < pib2){
-            printf("Carta 1, PIB - %s: %.2f\n Carta 2, PIB - %s: %.2f.\nCarta 2 GANHOU (%s). ganhou! Parabéns!\n", cidade, pib, cidade2, pib2, cidade2);
+            printf("Carta 1, PIB - %s: %.2f\n Carta 2, PIB - %s: %.2f.\nCarta 2 GANHOU (%s). Parabéns!\n", cidade, pib, cidade2, pib2, cidade2);
         } else {
             printf("Carta 1, PIB - %s: %.2f\n Carta 2, PIB - %s: %.2f.\nEmpataram.\n \n", cidade, pib, cidade2, pib2);
         }
@@ -238,7 +238,7 @@ int main(){
         printf("Carta 1, Pontos Turísticos - %s: %d\nCarta 2, Pontos Turísticos - %s: %d.\nCarta 1 GANHOU (%s). Parabéns!\n", cidade, pontos, cidade2, pontos2, cidade);
     } else {
         if (pontos < pontos2){
-            printf("Carta 1, Pontos Turísticos - %s: %d\nCarta 2, Pontos Turísticos - %s: %d.\nCarta B GANHOU (%s). ganhou! Parabéns!\n", cidade, pontos, cidade2, pontos2, cidade2);
+            printf("Carta 1, Pontos Turísticos - %s: %d\nCarta 2, Pontos Turísticos - %s: %d.\nCarta B GANHOU (%s). Parabéns!\n", cidade, pontos, cidade2, pontos2, cidade2);
         } else {
             printf("Carta 1, Pontos Turísticos - %s: %d\nCarta 2, Pontos Turísticos - %s: %d.\nEmpataram.\n \n", cidade, pontos, cidade2, pontos2);
         }
@@ -260,7 +260,7 @@ int main(){
         printf("Carta 1, PIB per capita - %s: %d\nCarta 2, PIB per capita - %s: %d.\nCarta 1 GANHOU (%s). Parabéns!\n", cidade, pibpercapita, cidade2, pibpercapita2, cidade);
     } else {
         if (pibpercapita < pibpercapita2){
-            printf("Carta A, PIB per capita - %s: %d\nCarta 2, PIB per capita - %s: %d.\nCarta 2 GANHOU (%s). ganhou! Parabéns!\n", cidade, pibpercapita, cidade2, pibpercapita2, cidade2);
+            printf("Carta A, PIB per capita - %s: %d\nCarta 2, PIB per capita - %s: %d.\nCarta 2 GANHOU (%s). Parabéns!\n", cidade, pibpercapita, cidade2, pibpercapita2, cidade2);
         } else {
             printf("Carta 1, PIB per capita - %s: %d\nCarta 2, PIB per capita - %s: %d.\nEmpataram\n", cidade, pibpercapita, cidade2, pibpercapita2);
         }
