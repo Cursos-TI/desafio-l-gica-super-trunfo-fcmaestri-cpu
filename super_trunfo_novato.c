@@ -246,10 +246,10 @@ int main(){
 
 //Comparando a densidade populacional das cidades.
     if (densipop > densipop2){
-        printf("Carta 1, Densidsde Populacional - %s: %.2f\nCarta 2, Densidade Populacional - %s: %.2f.\nCarta 1 GANHOU (%s). Parabéns!\n", cidade, densipop, cidade2, densipop2, cidade);
+        printf("Carta 1, Densidsde Populacional - %s: %.2f\nCarta 2, Densidade Populacional - %s: %.2f.\nCarta 2 GANHOU (%s). Parabéns!\n", cidade, densipop, cidade2, densipop2, cidade2);
     } else {
         if (densipop < densipop2){
-            printf("Carta 1, Densidade Populacional - %s: %.2f\nCarta 2, Densidade Populacional - %s: %.2f.\nCarta 2 GANHOU (%s). Parabéns!\n", cidade, densipop, cidade2, densipop2, cidade2);
+            printf("Carta 1, Densidade Populacional - %s: %.2f\nCarta 2, Densidade Populacional - %s: %.2f.\nCarta 1 GANHOU (%s). Parabéns!\n", cidade, densipop, cidade2, densipop2, cidade);
         } else {
             printf("Carta 1, Densidade Populacional - %s: %.2f\nCarta 2, Densidade Populacional - %s: %.2f.\nEmpataram!\n \n", cidade, densipop, cidade2, densipop2);
         }
